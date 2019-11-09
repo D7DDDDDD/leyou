@@ -55,4 +55,15 @@ public class Category {
     public void setSort(Integer sort) {
         this.sort = sort;
     }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", parentId=" + parentId +
+                ", isParent=" + isParent +
+                ", sort=" + sort +
+                '}';
+    }
 }
